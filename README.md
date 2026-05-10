@@ -46,18 +46,22 @@ negligible during the de facto peg years.
 
 ```
 .
-├── README.md                          ← this file
-├── paper.tex                          ← LaTeX source of the paper
-├── paper.pdf                          ← compiled paper (16 pages)
-├── ukraine_counterfactual.py          ← end-to-end replication script
-├── Data.xlsx                          ← input dataset (provided)
+├── README.md                             ← this file
+├── Rapport
+   ├── paper.pdf                          ← compiled paper (16 pages)
+├── code
+   ├── ukraine_counterfactual.py          ← end-to-end replication script
+├── Database
+   ├── Data.xlsx                          ← input dataset (provided)
+   ├── partA_regime_chronology.csv    ← Part A regime table
+   └── counterfactual_series.csv      ← actual vs CF inflation, monthly
 └── output/                            ← all artefacts produced by the script
     ├── fig_main_counterfactual.png    ← main deliverable (Part B figure)
     ├── fig_uah_usd_partA.png          ← UAH/USD chronology (Part A figure)
     ├── fig_irf.png                    ← structural impulse responses + 68% CI
     ├── fig_shocks.png                 ← extracted structural shocks
-    ├── partA_regime_chronology.csv    ← Part A regime table
-    └── counterfactual_series.csv      ← actual vs CF inflation, monthly
+├── Instructions
+   ├── exam_counterfactual_ukraine_inflation.pdf  ← instructions from the professor
 ```
 
 ---
